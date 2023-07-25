@@ -1,0 +1,68 @@
+.container{
+    border: 2px solid rgb(40, 52, 87);
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: rgb(68, 96, 112);
+}
+#cart{
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+}
+#blue{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: blue;
+}
+#black{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: black;
+}
+#white{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: white;
+}
+#black:hover{
+    scale: 130%;
+}
+#white:hover{
+    scale: 130%;
+}
+#blue:hover{
+    scale: 130%;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1281323504/photo/underground-sci-fi-concrete-cement-background-dark-reflective-showroom-parking-white-lights.jpg?s=612x612&w=0&k=20&c=kaHqlBJ_kNVjXKSyfJLcawQ2wSIUzCebUh7fSorVVQQ=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cartbutton{
+    width: 150px;
+    height: 38px;
+    background-color: rgba(190, 182, 209, 0.788);
+    margin-top: 14px;
+    margin-left: 10px;
+}
+#details{
+    margin-left: 10px;
+}
+#bottom{
+    margin-left: 15px;
+}
+#price{
+    margin-left: 25px;
+}
+#tbl{
+    margin-top: -15px;
+}
+#price1{
+ margin-left: 10px;
+}

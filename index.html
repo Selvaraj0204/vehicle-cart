@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="image">
+            <img src="https://imgd.aeplcdn.com/370x208/n/r3amg4a_1519681.jpg?q=75" alt="" height="200px" width="400px" id="img">
+        </div>
+        <div id="details">
+            <h2>Mercedes-Benz Maybach GLS</h2>
+            <table>
+                <tr>
+                    <td>🚙</td>
+                    <td>Mileage:</td>
+                    <td>8500 mpl</td>
+                </tr>
+                <tr>
+                    <td>⛽</td>
+                    <td>Fuel capacity :</td>
+                    <td>90 ltr</td>
+                </tr>
+                <tr>
+                    <td>☑️</td>
+                    <td>Safety:</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+            </table>
+        </div>
+        <div id="bottom">
+            <p>Choose a color :</p>
+            <button id="black" onclick="cblack()"></button>
+            <button id="white" onclick="cwhite()"></button>
+            <button id="blue" onclick="cblue()"></button>
+            <span><strike><b id="price">$175,000</b></strike><span><b id="price1">$155,000</b></span>
+        </div>
+            <button id="cartbutton" onclick="cart()">Add to cart</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
